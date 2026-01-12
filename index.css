@@ -1,0 +1,36 @@
+main {
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 2.5rem;
+    background-color: black;
+}
+p {
+    color: white;
+    font-size: 40px;
+}
+.pixel-line-horizontal {
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
+    background-size: 4px 100%;
+    margin-top: 5px;
+}
+
+.line-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.pixel-line-vertical {
+    width: 2px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #a281f7 50%, transparent 50%);
+    background-size: 100% 4px;
+    background-repeat: repeat-y;
+}
