@@ -1,24 +1,10 @@
-main {
-    width: 800px;
-    height: 900px;
-    margin: 0 auto;
-    border: 1px solid darkgray;
-    border-radius: 2.5rem;
-    background-color: black;
-}
-p {
-    color: white;
-    font-size: 40px;
-}
-.pixel-line-horizontal {
-    width: 100%;
-    height: 2px;
-    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
-    background-size: 4px 100%;
-    margin-top: 5px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.line-container {
+.line-container-intro {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,11 +12,70 @@ p {
     margin-left: 100px;
     margin-top: 10px;
 }
-
+.pixel-line-horizontal {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
+    background-size: 4px 100%;
+    margin-top: 5px;
+}
 .pixel-line-vertical {
     width: 2px;
     height: 100px;
     background-image: linear-gradient(to bottom, #a281f7 50%, transparent 50%);
     background-size: 100% 4px;
     background-repeat: repeat-y;
+}
+.leeftijd {
+    font-size: 40px;
+}
+.naam {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.belgium {
+    width: 80px;
+    height: 70px;
+}
+
+/*=======================================================================================================================*/
+
+/*.vertical-center-am-ft-container {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 10px;*/
+/*}*/
+/*.vertical-center-am-ft {*/
+/*    width: 2px;*/
+/*    height: 400px;*/
+/*    background-image: linear-gradient(to bottom, #a281f7 50%, transparent 50%);*/
+/*    background-size: 100% 4px;*/
+/*    background-repeat: repeat-y;*/
+/*}*/
+
+
+.horizontal-center-am-ft-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.horizontal-center-am-ft {
+    width: 2000px;
+    height: 2px;
+    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
+    background-size: 4px 100%;
+}
+.over-mij {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 200px 10px
+}
+.over-mij-container {
+    display: inline-block;
+    flex: 1 1 auto;
+    margin: 20px 20px 0px
+}
+.foto {
+    flex: 1 1 auto;
 }
