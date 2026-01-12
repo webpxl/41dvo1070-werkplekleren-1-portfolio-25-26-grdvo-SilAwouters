@@ -15,14 +15,14 @@
 .pixel-line-horizontal {
     width: 100%;
     height: 1px;
-    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
+    background-image: linear-gradient(to right, #800080 50%, transparent 50%);
     background-size: 4px 100%;
     margin-top: 5px;
 }
 .pixel-line-vertical {
     width: 2px;
     height: 100px;
-    background-image: linear-gradient(to bottom, #a281f7 50%, transparent 50%);
+    background-image: linear-gradient(to bottom, #800080 50%, transparent 50%);
     background-size: 100% 4px;
     background-repeat: repeat-y;
 }
@@ -63,19 +63,58 @@
 .horizontal-center-am-ft {
     width: 2000px;
     height: 2px;
-    background-image: linear-gradient(to right, #a281f7 50%, transparent 50%);
+    background-image: linear-gradient(to right, #800080 50%, transparent 50%);
     background-size: 4px 100%;
 }
 .over-mij {
     font-size: 20px;
-    text-align: left;
-    margin: 10px 200px 10px
+    text-align: center;
+    margin: 10px 20px 10px
 }
 .over-mij-container {
     display: inline-block;
     flex: 1 1 auto;
-    margin: 20px 20px 0px
+    margin: 20px 20px 0px;
+    text-align: center;
 }
 .foto {
     flex: 1 1 auto;
 }
+
+.square-about {
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px dotted purple;
+    /*background-color: #f0f0f0;*/
+}
+.square-education {
+    margin: 20px;
+    width: 1665px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px dotted #733B73;
+    /*background-color: #f0f0f0;*/
+}
+
+.square-education div{
+    margin: 20px;
+}
+.timeline-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.line {
+    width: 1600px;
+    height: 4px;
+    background-color: black;
+}
+.eerste-actie {
+    display: flex;
+    gap: 100px
+}
+
+
