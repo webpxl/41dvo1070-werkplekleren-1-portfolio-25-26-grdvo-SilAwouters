@@ -12,6 +12,7 @@
     margin-left: 100px;
     margin-top: 10px;
 }
+
 .pixel-line-horizontal {
     width: 100%;
     max-width: 2000px;
@@ -20,6 +21,7 @@
     background-size: 4px 100%;
     margin: 5px auto;
 }
+
 .pixel-line-vertical {
     width: 2px;
     height: 100px;
@@ -27,13 +29,16 @@
     background-size: 100% 4px;
     background-repeat: repeat-y;
 }
+
 .leeftijd {
     font-size: 40px;
 }
+
 .naam {
     font-size: 40px;
     margin-bottom: 0;
 }
+
 .belgium {
     width: 80px;
     height: 70px;
@@ -41,26 +46,12 @@
 
 /*=======================================================================================================================*/
 
-/*.vertical-center-am-ft-container {*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    margin-top: 10px;*/
-/*}*/
-/*.vertical-center-am-ft {*/
-/*    width: 2px;*/
-/*    height: 400px;*/
-/*    background-image: linear-gradient(to bottom, #a281f7 50%, transparent 50%);*/
-/*    background-size: 100% 4px;*/
-/*    background-repeat: repeat-y;*/
-/*}*/
-
-
 .horizontal-center-am-ft-container {
     display: flex;
     justify-content: center;
     margin-top: 8px;
 }
+
 .horizontal-center-am-ft {
     width: 100%;
     max-width: 2000px;
@@ -68,29 +59,40 @@
     background-image: linear-gradient(to right, #800080 50%, transparent 50%);
     background-size: 4px 100%;
 }
-.over-mij {
+
+.about-me {
     font-size: 20px;
     text-align: center;
     margin: 10px 20px 10px
 }
-.over-mij-container {
+
+.about-me-container {
     display: inline-block;
     flex: 1 1 auto;
     margin: 20px 20px 0;
     text-align: center;
 }
-.foto {
-    flex: 1 1 auto;
+.square-container {
+    display: flex;
 }
-
 .square-about {
+    display: flex;
     margin: 20px;
     width: 500px;
     height: 300px;
     border-radius: 20px;
     border: 3px dotted purple;
-    /*background-color: #f0f0f0;*/
 }
+.square-language {
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px dotted purple;
+    align-self: center;
+    padding: 10px;
+}
+
 .square-education {
     margin: 20px;
     width: 1665px;
@@ -100,9 +102,10 @@
     /*background-color: #f0f0f0;*/
 }
 
-.square-education div{
+.square-education div {
     margin: 20px;
 }
+
 .timeline-wrapper {
     display: flex;
     align-items: center;
@@ -114,22 +117,48 @@
     height: 4px;
     background-color: black;
 }
+
 .story {
     display: flex;
     gap: 100px
 }
+
 .story2 {
     display: flex;
     gap: 100px;
 }
+
 .wit {
     color: white;
 }
+
 .behalen {
     opacity: 50%;
 }
-.logo-footer{
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+.logo-footer {
     width: 200px;
     height: 200px;
     margin: 40px;
+}
+
+.logo-footer-figma {
+    width: 170px;
+    height: 170px;
+    margin: 40px;
+    margin-top: 55px;
+
+}
+.logo-footer-adobe {
+    width: 140px;
+    height: 140px;
+    margin: 40px;
+    margin-top: 60px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
 }
