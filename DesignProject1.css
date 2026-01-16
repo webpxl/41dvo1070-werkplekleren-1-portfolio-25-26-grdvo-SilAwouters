@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.intro-text {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 20px;
+    font-family: verdana, sans-serif;
+}
+.project-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.project1 {
+    display: flex;
+    justify-content: right;
+    width: 600px;
+    height: 800px;
+    padding: 40px;
+}
+.title-motor {
+    margin: 40px;
+}
+.project2 {
+    display: flex;
+    justify-content: left;
+    width: 800px;
+    height: 500px;
+    padding: 40px;
+}
